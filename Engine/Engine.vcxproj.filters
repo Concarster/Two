@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Api">
+      <UniqueIdentifier>{3FD6870B-ABDF-877C-345B-9E7CA063937C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Display">
+      <UniqueIdentifier>{7BAF8573-E78E-040F-F0A6-8FE55C056B70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{23A78D7C-0FDE-8E0D-B8CA-7410A4E00A0F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine\Api\Initialize.h">
+      <Filter>Api</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Display\Display.h">
+      <Filter>Display</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Display\DisplayMgr.h">
+      <Filter>Display</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Engine.h" />
+    <ClInclude Include="Engine\Main.h" />
+    <ClInclude Include="Engine\PCH.h" />
+    <ClInclude Include="Engine\Util\ApiCode.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Util\Client.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Util\Define.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Util\Exception.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Util\Log.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\InputMgr.h" />
+    <ClInclude Include="Engine\Window.h" />
+    <ClInclude Include="Engine\Events\AppEvent.h" />
+    <ClInclude Include="Engine\Events\Event.h" />
+    <ClInclude Include="Engine\Events\KeyEvent.h" />
+    <ClInclude Include="Engine\Events\MouseEvent.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Engine\Api\Initialize.cpp">
+      <Filter>Api</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Display\DisplayMgr.cpp">
+      <Filter>Display</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Engine.cpp" />
+    <ClCompile Include="Engine\PCH.cpp" />
+    <ClCompile Include="Engine\Util\Log.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\InputMgr.cpp" />
+    <ClCompile Include="Engine\Window.cpp" />
+  </ItemGroup>
+</Project>
